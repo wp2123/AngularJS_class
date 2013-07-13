@@ -35,6 +35,22 @@
                }
                 });
 
+        my_app.controller("MainCtrl",function ($scope) {
+            $scope.load_more = function () {
+                alert("loading more...");
+            };
+        }).directive("superman04", function () {
+                return {
+                    restrict: "E",
+                    template: "<div class='well'>Click to load more</div>",
+                    link: function (scope, element, attrs) {
+                        element.bind("click", function () {
+                            scope.$apply(attrs.click);
+                        });
+                    }
+                }
+            });
+
     </script>
 </head>
 <body>
@@ -42,6 +58,9 @@
     <superman01></superman01>
     <div superman02></div>
     <superman03 enter="alert"></superman03>
+    <div ng-controller="MainCtrl">
+        <superman04 click="load_more()"></superman04>
+    </div>
 </div>
 
 
