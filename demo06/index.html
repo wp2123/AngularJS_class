@@ -3,29 +3,45 @@
 <head>
     <title></title>
     <script type="text/javascript" src="../lib/angular/angular.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css" />
     <script type="text/javascript">
         var my_app = angular.module("my_app", []);
 
         my_app.directive("superman01", function () {
             return {
-                restrict: "E",          //标签
+                restrict: "E",          //element元素  y
                 template: "<div class='well'>i\'m superman01</div>"
             };
         });
 
-        my_app.directive("superman02", function () {
+        my_app.directive("superman02",function () {
             return {
-                restrict: "A",           //元素
+                restrict: "A",           //属性 attribute
                 template: "<div class='well'>i\'m superman02</div>"
             }
-        });
+        }).directive("superman03", function () {
+               return {
+                   restrict: "E",
+                   template: "<div class='well'>i\'m superman03</div>",
+                   link: function (scope, element, attrs) {
+//                       alert('I\'m superman03');
+                       element.bind("mouseenter", function () {
+                           element.addClass(attrs.enter);
+                       });
+                       element.bind("mouseout" , function () {
+                           element.removeClass(attrs.enter);
+                       })
+                   }
+               }
+                });
+
     </script>
 </head>
 <body>
 <div class="container">
     <superman01></superman01>
     <div superman02></div>
-
+    <superman03 enter="alert"></superman03>
 </div>
 
 
