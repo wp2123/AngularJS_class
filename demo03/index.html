@@ -7,8 +7,15 @@
 //        angular.element(document).ready(function () {
 //            angular.bootstrap(document.getElementById("angular_container"));
 //        });
-        function MainCtrl($scope) {
+        function MainCtrl($scope,$timeout) {
             $scope.count = 0;
+            $scope.run = function () {
+                $timeout(function () {
+                    $scope.count = $scope.count + 1;
+                    $scope.run();
+                }, 1000);
+            };
+            $scope.run();
         }
     </script>
 

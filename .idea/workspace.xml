@@ -6,7 +6,7 @@
     <ignored path=".idea/workspace.xml" />
     <file path="/main.js" changelist="2390dfd3-8284-4e16-a2ad-8e22072d0647" time="1373681011284" ignored="false" />
     <file path="/main_spec.js" changelist="2390dfd3-8284-4e16-a2ad-8e22072d0647" time="1373680805702" ignored="false" />
-    <file path="/index.html" changelist="2390dfd3-8284-4e16-a2ad-8e22072d0647" time="1373685938118" ignored="false" />
+    <file path="/index.html" changelist="2390dfd3-8284-4e16-a2ad-8e22072d0647" time="1373686216000" ignored="false" />
     <file path="/digest_spec.js" changelist="2390dfd3-8284-4e16-a2ad-8e22072d0647" time="1373684138946" ignored="false" />
     <file path="/SpecRunner.html" changelist="2390dfd3-8284-4e16-a2ad-8e22072d0647" time="1373684594127" ignored="false" />
     <file path="/scope_spec.js" changelist="2390dfd3-8284-4e16-a2ad-8e22072d0647" time="1373684820416" ignored="false" />
@@ -119,7 +119,7 @@
       <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/demo03/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="28" selection-start="645" selection-end="645" vertical-scroll-proportion="0.6318681">
+            <state line="15" column="23" selection-start="609" selection-end="609" vertical-scroll-proportion="0.41208792">
               <folding />
             </state>
           </provider>
@@ -590,7 +590,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/demo03/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="28" selection-start="645" selection-end="645" vertical-scroll-proportion="0.6318681">
+        <state line="15" column="23" selection-start="609" selection-end="609" vertical-scroll-proportion="0.41208792">
           <folding />
         </state>
       </provider>
