@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html ng-app="my_app">
+<head>
+    <title></title>
+    <script type="text/javascript" src="../lib/angular/angular.min.js"></script>
+    <script type="text/javascript">
+        var my_app = angular.module("my_app", []);
+        my_app.filter("reverse", function () {
+            return function (text) {
+                if(text == null) {
+                    return "";
+                }
+                return text.split("").reverse().join("");
+            };
+        });
+    </script>
+</head>
+<body>
+    <input ng-model="name" type="text" />
+    <input ng-model="name" value="{{name | reverse}}" />
+    <p>{{name | reverse}}</p>
+
+</body>
+</html>
