@@ -24,9 +24,22 @@ describe("demo02 digest test", function () {
     it("should return 1 if change value and digest", function () {
         scope.$watch("value", function (new_value, old_value) {
             scope.count = scope.count + 1;
+            console.log("new" + new_value);
+            console.log("old" + old_value);
+
+
         });
         scope.value = "321";
-        scope.$digest();         //出发改动
+        scope.$digest();         //触发改动
         expect(scope.count).toEqual(1);
+    });
+
+    it("should return 1 if change value by apply", function () {
+        scope.$watch("value", function (new_value, old_value) {
+            scope.count = scope.count + 1;
+        });
+        scope.$apply("value = '321'");
+        expect(scope.count).toEqual(1);
+        expect(scope.$apply("2 + 3")).toEqual(5);
     });
 });
