@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>AngularJS Class Binding</title>
+    <script type="text/javascript" src="../lib/angular/angular.min.js"></script>
+    <script type="text/javascript">
+        //        angular.element(document).ready(function () {
+        //            angular.bootstrap(document.getElementById("angular_container"));
+        //        });
+        var my_app = angular.module("my_app", []);
+        my_app.controller("MainCtrl", ['$scope', MainCtrl]);
+//        my_app.controller("MainCtrl", [function ($scope) {
+//            $scope.count = 0;
+//            $scope.cost = 0;
+//        }]);
+         function MainCtrl(scope) {
+             scope.count = 0;
+             scope.cost = 0;
+         }
+//        MainCtrl.$inject = ['$scope'];
+//        function MainCtrl($scope,$timeout) {
+//            $scope.count = 0;
+//            $scope.run = function () {
+//                $timeout(function () {
+//                    $scope.count = $scope.count + 1;
+//                    $scope.run();
+//                }, 1000);
+//            };
+//            $scope.run();
+//        }
+    </script>
+
+
+</head>
+<body ng-app="my_app">
+
+<div ng-controller="MainCtrl">
+    <p>
+        <input type="number" ng-pattern="/\d+/"
+               step="1" min="0" ng-model="count" required>
+    </p>
+    <p><input type="number" ng-model="cost" required></p>
+    <p>{{ count * cost | currency }}</p>
+</div>
+
+</body>
+</html>

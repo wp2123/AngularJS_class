@@ -6,7 +6,7 @@
     <ignored path=".idea/workspace.xml" />
     <file path="/main.js" changelist="2390dfd3-8284-4e16-a2ad-8e22072d0647" time="1373681011284" ignored="false" />
     <file path="/main_spec.js" changelist="2390dfd3-8284-4e16-a2ad-8e22072d0647" time="1373680805702" ignored="false" />
-    <file path="/index.html" changelist="2390dfd3-8284-4e16-a2ad-8e22072d0647" time="1373686216000" ignored="false" />
+    <file path="/index.html" changelist="2390dfd3-8284-4e16-a2ad-8e22072d0647" time="1373688453661" ignored="false" />
     <file path="/digest_spec.js" changelist="2390dfd3-8284-4e16-a2ad-8e22072d0647" time="1373684138946" ignored="false" />
     <file path="/SpecRunner.html" changelist="2390dfd3-8284-4e16-a2ad-8e22072d0647" time="1373684594127" ignored="false" />
     <file path="/scope_spec.js" changelist="2390dfd3-8284-4e16-a2ad-8e22072d0647" time="1373684820416" ignored="false" />
@@ -120,16 +120,25 @@
       <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/demo03/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="53" selection-start="41" selection-end="196" vertical-scroll-proportion="-3.125">
+            <state line="5" column="53" selection-start="0" selection-end="980" vertical-scroll-proportion="-3.125">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="controller_inherit.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="controller_inherit.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/demo03/controller_inherit.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="37" selection-start="266" selection-end="266" vertical-scroll-proportion="0.22709924">
+            <state line="10" column="20" selection-start="279" selection-end="279" vertical-scroll-proportion="-6.2083335">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/demo04/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="4" column="12" selection-start="85" selection-end="85" vertical-scroll-proportion="0.114503816">
               <folding />
             </state>
           </provider>
@@ -162,6 +171,7 @@
         <option value="$PROJECT_DIR$/spec/ut/demo02/scope_spec.js" />
         <option value="$PROJECT_DIR$/demo03/index.html" />
         <option value="$PROJECT_DIR$/demo03/controller_inherit.html" />
+        <option value="$PROJECT_DIR$/demo04/index.html" />
       </list>
     </option>
   </component>
@@ -303,7 +313,67 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AngularJS_class" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AngularJS_class" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="angular" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AngularJS_class" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AngularJS_class" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="demo04" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AngularJS_class" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AngularJS_class" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="demo03" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AngularJS_class" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AngularJS_class" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="demo02" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -338,6 +408,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/demo04" />
       <recent name="$PROJECT_DIR$/demo03" />
     </key>
   </component>
@@ -554,13 +625,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/demo02/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="22" selection-start="430" selection-end="430" vertical-scroll-proportion="-9.375">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/spec/ut/demo02/digest_spec.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="1" column="0" selection-start="45" selection-end="196" vertical-scroll-proportion="0.0">
@@ -585,16 +649,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/demo03/index.html">
+    <entry file="file://$PROJECT_DIR$/demo03/controller_inherit.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="53" selection-start="41" selection-end="196" vertical-scroll-proportion="-3.125">
+        <state line="10" column="20" selection-start="279" selection-end="279" vertical-scroll-proportion="-6.2083335">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/demo03/controller_inherit.html">
+    <entry file="file://$PROJECT_DIR$/demo02/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="37" selection-start="266" selection-end="266" vertical-scroll-proportion="0.22709924">
+        <state line="15" column="22" selection-start="430" selection-end="430" vertical-scroll-proportion="-9.375">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo03/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="53" selection-start="0" selection-end="980" vertical-scroll-proportion="-3.125">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo04/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="12" selection-start="85" selection-end="85" vertical-scroll-proportion="0.114503816">
           <folding />
         </state>
       </provider>
