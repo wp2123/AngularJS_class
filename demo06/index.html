@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html ng-app="my_app">
+<head>
+    <title></title>
+    <script type="text/javascript" src="../lib/angular/angular.min.js"></script>
+    <script type="text/javascript">
+        var my_app = angular.module("my_app", []);
+
+        my_app.directive("superman01", function () {
+            return {
+                restrict: "E",          //标签
+                template: "<div class='well'>i\'m superman01</div>"
+            };
+        });
+
+        my_app.directive("superman02", function () {
+            return {
+                restrict: "A",           //元素
+                template: "<div class='well'>i\'m superman02</div>"
+            }
+        });
+    </script>
+</head>
+<body>
+<div class="container">
+    <superman01></superman01>
+    <div superman02></div>
+
+</div>
+
+
+</body>
+</html>
