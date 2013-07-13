@@ -10,6 +10,7 @@
     <file path="/digest_spec.js" changelist="2390dfd3-8284-4e16-a2ad-8e22072d0647" time="1373684138946" ignored="false" />
     <file path="/SpecRunner.html" changelist="2390dfd3-8284-4e16-a2ad-8e22072d0647" time="1373684594127" ignored="false" />
     <file path="/scope_spec.js" changelist="2390dfd3-8284-4e16-a2ad-8e22072d0647" time="1373684820416" ignored="false" />
+    <file path="/controller_inherit.html" changelist="2390dfd3-8284-4e16-a2ad-8e22072d0647" time="1373687610298" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -116,10 +117,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/demo03/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="23" selection-start="609" selection-end="609" vertical-scroll-proportion="0.41208792">
+            <state line="5" column="53" selection-start="41" selection-end="196" vertical-scroll-proportion="-3.125">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="controller_inherit.html" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/demo03/controller_inherit.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="8" column="37" selection-start="266" selection-end="266" vertical-scroll-proportion="0.22709924">
               <folding />
             </state>
           </provider>
@@ -151,6 +161,7 @@
         <option value="$PROJECT_DIR$/spec/SpecRunner.html" />
         <option value="$PROJECT_DIR$/spec/ut/demo02/scope_spec.js" />
         <option value="$PROJECT_DIR$/demo03/index.html" />
+        <option value="$PROJECT_DIR$/demo03/controller_inherit.html" />
       </list>
     </option>
   </component>
@@ -293,20 +304,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="demo03" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="AngularJS_class" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="AngularJS_class" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="demo02" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -590,7 +587,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/demo03/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="23" selection-start="609" selection-end="609" vertical-scroll-proportion="0.41208792">
+        <state line="5" column="53" selection-start="41" selection-end="196" vertical-scroll-proportion="-3.125">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo03/controller_inherit.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="37" selection-start="266" selection-end="266" vertical-scroll-proportion="0.22709924">
           <folding />
         </state>
       </provider>

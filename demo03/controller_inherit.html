@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>AngularJS Class Binding</title>
+    <script type="text/javascript" src="../lib/angular/angular.min.js"></script>
+    <script type="text/javascript">
+
+        function ParentCtrl($scope) {
+            $scope.data = {message: ""}
+        }
+
+        function FirstCtrl($scope) {
+        }
+    </script>
+</head>
+<body ng-app>
+<div ng-controller="ParentCtrl">
+    <div>
+        <input type="text" ng-model="data.message" />
+        <p>Parent:{{data.message}}</p>
+    </div>
+
+    <div ng-controller="FirstCtrl">
+         <input type="text" ng-model="data.message" />
+         <p>First:{{data.message}}</p>
+    </div>
+</div>
+
+</body>
+</html>
