@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html ng-app>
+<head>
+    <title>AngularJS Class Binding</title>
+    <script type="text/javascript" src="../lib/angular/angular.min.js"></script>
+    <script type="text/javascript">
+//        angular.element(document).ready(function () {
+//            angular.bootstrap(document.getElementById("angular_container"));
+//        });
+        function MainCtrl($scope) {
+            $scope.count = 0;
+        }
+    </script>
+
+
+</head>
+<body ng-app>
+
+<div ng-controller="MainCtrl">
+    <p>
+        <input type="number" ng-pattern="/\d+/"
+                step="1" min="0" ng-model="count" required>
+    </p>
+    <p><input type="number" ng-model="cost" required></p>
+    <p>{{ count * cost | currency }}</p>
+</div>
+
+</body>
+</html>
